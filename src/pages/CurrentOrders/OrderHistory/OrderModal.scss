@@ -1,0 +1,8 @@
+.items--container {
+  padding: 0 50px;
+  .items__item--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

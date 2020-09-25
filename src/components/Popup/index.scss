@@ -1,0 +1,21 @@
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 400px;
+  height: 300px;
+  background-color: aqua;
+  .popup-detail {
+    display: grid;
+    grid-template-columns: 4fr repeat(2, 3fr) 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    input {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
